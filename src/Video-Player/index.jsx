@@ -169,6 +169,7 @@ const VideoPlayer = () => {
       setIsOneWaiting(false);
       handleButton1Click();
     } else {
+        
       setWhichPart("second");
       setIsTwoWaiting(false);
       handleButton2Click();
